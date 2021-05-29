@@ -20,5 +20,9 @@ signal, means it need ESC with refresh rate more than 490hz and Motor grequency 
 You will need a logic level converter to read signals from reciever, because receiver signals are 5v logic , but ESP32
 has 3.3v logic.
 
+# Required Libraries
+You have to use only these Libraries which i have uploaded, because i have changed a lot of code in libraries itself.
+Using libraies from original source will redduce the drone response time.
+
 # Connections - 
 I will update the Connection diagram with ESP32 pins, SOOOOONNN.
