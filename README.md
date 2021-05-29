@@ -21,10 +21,12 @@ The most important thing required , if you wantt to use this code is SIMONK ESC 
 signal, means it need ESC with refresh rate more than 490hz and Motor grequency of 16KHZ.
 You will need a logic level converter to read signals from reciever, because receiver signals are 5v logic , but ESP32
 has 3.3v logic.
+For IMU i used MPU6050 , i am using DMP data from MPU6050, so that vibrations have less effect on readings.
+This code is still under Development, try to learn from it, use with safety precautions while handling the Drone
 
 # Required Libraries
 You have to use only these Libraries which i have uploaded, because i have changed a lot of code in libraries itself.
-Using libraies from original source will redduce the drone response time.
+Using libraies from original source will reduce the drone response time.
 
 # Connections - 
 I will update the Connection diagram with ESP32 pins, SOOOOONNN.
